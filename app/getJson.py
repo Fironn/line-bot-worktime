@@ -5,6 +5,8 @@ headers = {"content-type": "application/json"}
 g=requests.get(URL,headers=headers)
 data=g.json()
 
-# print(data['data'])
-for l in data['data']:
-    print(l['range']['date']+' '+l['grand_total']['digital'])
+def getWorkTime():
+    compress=[]
+    for l in data['data']:
+        compress.append(l['range']['date']+' '+l['grand_total']['digital'])
+    return compress

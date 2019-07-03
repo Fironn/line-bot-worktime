@@ -1,7 +1,5 @@
 #!/usr/local/bin/python3
 # -*- coding: utf-8 -*-
-print('Content-type: text/html; charset=UTF-8\n')
-
 from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
@@ -21,7 +19,12 @@ api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
 
 def main():
     time=getJson.getWorkTime()
-    api.push_message(user_id, messages=time)
+    res=''
+    for s in time:
+        res+=s
+        res+='\n'
+    message=TextSendMessage(text=res)
+    api.push_message(user_id, messages=message)
 
 if __name__ == "__main__":
     main()

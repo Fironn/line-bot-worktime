@@ -21,6 +21,7 @@ pip3 install requests
 ## LINE Developper設定をする
 参考 :  <https://qiita.com/Takagenki/items/b2a67422e7226a16e2b1>
 
+  
 
 取得したAPIキーで `token.json` と `app.json` をつくる
 
@@ -49,4 +50,4 @@ python3 sendLine.py
 
 supported by wakatime
 
-[<img src="app/Logo + Text Horizontal.png">](https://wakatime.com/)
+[<img src="app/Logo + Text Horizontal.png" width="100px">](https://wakatime.com/)

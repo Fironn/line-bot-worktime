@@ -49,4 +49,4 @@ python3 sendLine.py
 
 supported by wakatime
 
-[<img src="./Logo + Text Horizontal.png">](https://wakatime.com/)
+[<img src="app/Logo + Text Horizontal.png">](https://wakatime.com/)

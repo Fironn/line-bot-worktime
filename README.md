@@ -50,4 +50,4 @@ python3 sendLine.py
 
 supported by wakatime
 
-[<img src="app/Logo + Text Horizontal.png" width="100px">](https://wakatime.com/)
+[<img src="app/Logo + Text Horizontal.png" width="400px">](https://wakatime.com/)
